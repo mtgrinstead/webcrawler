@@ -8,12 +8,15 @@
     "test": "jest"
   },
   "repository": {
-      "type": "git",
-      "url": "git-https://github.com/mtgrinstead/webcrawler.git"
+    "type": "git",
+    "url": "git-https://github.com/mtgrinstead/webcrawler.git"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "jsdom": "^24.1.0"
   }
 }
