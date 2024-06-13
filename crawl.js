@@ -3,7 +3,7 @@ const { JSDOM } = require("jsdom");
 async function crawlPage(baseURL, currentURL, pages) {
   const baseURLObj = new URL(baseURL);
   const currentURLObj = new URL(currentURL);
-  if (baseURL.hostname !== currentURLObj.hostname) {
+  if (baseURLObj.hostname !== currentURLObj.hostname) {
     return pages;
   }
 
